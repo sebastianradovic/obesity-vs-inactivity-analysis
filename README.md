@@ -13,7 +13,7 @@ The goal of this project was to analyze how adult obesity prevalence varies with
 
 ## Data
 
-This project uses the CDC PLACES county-level dataset. The analysis focuses on age-adjusted adult obesity prevalence and age adjusted inactivity level for the year 2023.
+This project uses the CDC PLACES county-level dataset. The analysis focuses on age-adjusted adult obesity prevalence and age-adjusted physical inactivity prevalence for the year 2023.
 
 ## Methods
 
@@ -29,7 +29,7 @@ Scatterplots and linear regression trend lines were created using ggplot2 to vis
 
 - Counties in Southern states tended to cluster at higher inactivity and obesity prevalence levels compared to other regions.
 
-- The regression trend for Southern counties appeared steeper compared to other counties, suggesting that increases in inactivity may be associated with larger increases in obesity prevalence in Southern counties.
+- The regression trend for Southern counties appeared steeper than that of non-Southern counties, suggesting that increases in inactivity may be associated with larger increases in obesity prevalence in Southern counties.
 
 ## Visualizations
 
@@ -57,7 +57,24 @@ This scatterplot suggests that Southern counties tend to demonstrate a steeper p
 
 This scatterplot shows the distribution of Southern counties within the overall relationship between physical inactivity and adult obesity prevalence across U.S. counties.
 
+## Skills Demonstrated
+
+- Data cleaning and transformation
+- Data joining using `left_join()`
+- Missing value handling
+- Correlation analysis
+- Data visualization with ggplot2
+- Regression trend analysis
+
 ## Limitations
 
+This analysis used observational county-level data and therefore cannot establish causation between physical inactivity and obesity prevalence. Other factors such as diet, socioeconomic status, healthcare access, and environmental conditions may also contribute to obesity prevalence across counties.
+
+Additionally, the analysis focused only on age-adjusted prevalence estimates from 2023 and may not fully capture changes over time or all regional differences.
+
 ## Conclusion
+
+This project demonstrated a strong positive relationship between physical inactivity and adult obesity prevalence across U.S. counties. Southern counties generally appeared to cluster at higher inactivity and obesity prevalence levels, and regional trend lines suggested potential differences in the relationship between inactivity and obesity across regions.
+
+Overall, the project demonstrated how R can be used to clean, combine, visualize, and analyze real-world public health data using reproducible analytical workflows.
 
