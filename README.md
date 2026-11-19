@@ -36,7 +36,7 @@ Scatterplots and linear regression trend lines were created using ggplot2 to vis
 ### Overall Relationship
 
 <p align="center">
-  <img alt="obesity_inactivity_relationship" src="https://github.com/user-attachments/assets/bf3ffab0-efe2-43e0-9495-08967d98fb22" width="800" />
+  <img alt="obesity_inactivity_relationship" src="figures/obesity_inactivity_relationship.png" width="800" />
 </p>
 
 This scatterplot suggests a strong positive relationship between physical inactivity and adult obesity prevalence across U.S. counties.
@@ -44,7 +44,7 @@ This scatterplot suggests a strong positive relationship between physical inacti
 ### Regional Trend Lines
 
 <p align="center">
-  <img alt="scatterplot_lm" src="https://github.com/user-attachments/assets/41c04000-80b1-4867-98cf-9cb04da3247a" width="800" />
+  <img alt="scatterplot_lm" src="figures/scatterplot_lm.png" width="800" />
 </p>
 
 This scatterplot suggests that Southern counties tend to demonstrate a steeper positive relationship between physical inactivity and obesity prevalence.
@@ -52,7 +52,7 @@ This scatterplot suggests that Southern counties tend to demonstrate a steeper p
 ### Regional Distribution
 
 <p align="center">
-  <img alt="scatterplot_region" src="https://github.com/user-attachments/assets/c300c45f-bb49-4259-95f4-a9851a6aea90" width="800" />
+  <img alt="scatterplot_region" src="figures/scatterplot_region.png" width="800" />
 </p>
 
 This scatterplot shows the distribution of Southern counties within the overall relationship between physical inactivity and adult obesity prevalence across U.S. counties.
